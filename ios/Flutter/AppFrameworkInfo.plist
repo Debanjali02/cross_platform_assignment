@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+    <dict>
+        <!-- Basic App Information -->
+        <key>CFBundleDevelopmentRegion</key>
+        <string>en</string>
+        <key>CFBundleIdentifier</key>
+        <string>com.example.yourapp</string>
+        <key>CFBundleVersion</key>
+        <string>1.0.0</string>
+        <key>CFBundleShortVersionString</key>
+        <string>1.0.0</string>
+        
+        <!-- Permissions (Modify according to your app needs) -->
+        <key>NSCameraUsageDescription</key>
+        <string>We need access to your camera to capture images</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>We need access to your photo library to choose images</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>We need access to your location for providing relevant content</string>
+
+        <!-- App Transport Security (ATS) Settings -->
+        <!-- If you're connecting to Parse Server over HTTP instead of HTTPS, you would disable ATS -->
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+        </dict>
+
+        <!-- iOS Specific Flutter Configurations -->
+        <key>UIBackgroundModes</key>
+        <array>
+            <string>fetch</string>
+            <string>remote-notification</string>
+        </array>
+
+        <!-- Supporting App Extensions -->
+        <key>UISupportedInterfaceOrientations</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+            <string>UIInterfaceOrientationPortraitUpsideDown</string>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+
+        <!-- Push Notification and Firebase Config (if applicable) -->
+        <key>FirebaseAppDelegateProxyEnabled</key>
+        <false/>
+        
+        <!-- Parse Server Configuration (for Back4App integration) -->
+        <key>ParseServerURL</key>
+        <string>https://parseapi.back4app.com</string>
+        <key>ParseAppId</key>
+        <string>your-app-id</string>
+        <key>ParseClientKey</key>
+        <string>your-client-key</string>
+
+        <!-- App Icon & Launch Image -->
+        <key>CFBundleIconFiles</key>
+        <array>
+            <string>AppIcon60x60</string>
+            <string>AppIcon76x76</string>
+            <string>AppIcon120x120</string>
+            <string>AppIcon180x180</string>
+        </array>
+
+        <!-- Network Settings -->
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
+    </dict>
+</plist>
