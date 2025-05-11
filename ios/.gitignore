@@ -1,0 +1,38 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS related
+ios/Flutter/.generated/
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+
+# Android related
+android/.gradle/
+android/app/build/
+android/gradle/
+android/gradle-wrapper.jar
+
+# IDEs
+.idea/
+.vscode/
+
+# Flutter Plugin related
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# macOS
+.idea/
+
+# Windows
+# .vscode/settings.json
+
+# Linux
+.idea/
+
+# Dart specific
+*.dart_tool/

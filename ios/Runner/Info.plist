@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.back4app_task_app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Runner</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+
+    <!-- Add this to allow network access -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+
+    <!-- Add app icon and launch screen info -->
+    <key>CFBundleIconFiles</key>
+    <array>
+      <string>AppIcon29x29</string>
+      <string>AppIcon40x40</string>
+      <string>AppIcon60x60</string>
+    </array>
+
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

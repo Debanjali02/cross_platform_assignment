@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Back4App Task App</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Flutter Back4App Web App">
+    <meta name="theme-color" content="#000000">
+  </head>
+  <body>
+    <script src="flutter.js" defer></script>
+    <script>
+      window.addEventListener('load', function(ev) {
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: function(engineInitializer) {
+            engineInitializer.initializeEngine().then(function(appRunner) {
+              appRunner.runApp();
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
